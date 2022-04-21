@@ -36,7 +36,7 @@ Pole s grafickým prvkem
 <div class="place white-place position-H1 white-queen"></div>
 ```
 ## Hostovaný zdrojový kód ##
-Zde naleznete hostovaný zdrojový kód: [Dáma demo]()
+Zde naleznete hostovaný zdrojový kód: [Dáma demo](https://pslib-cz.github.io/2021l4web-app-mockup-Martin-1-Novak/)
 ## Black-pawn ##
 ![GitHub Logo](/assets/black-pawn-50px.png)
 ## White-pawn ##
