@@ -1,5 +1,5 @@
 # Dáma #
-Klasická královská stolní hra. Běžne se hraje na šachovníci 8x8. Jsou některé typy této hry, které se hrají i na větších šachovnicích, ale zde najdete zpracované podklady k verzi na šachovnici 8x8 s českými pravidly.
+Klasická královská stolní hra. Běžne se hraje na šachovnici 8x8. Jsou některé typy této hry, které se hrají i na větších šachovnicích, ale zde najdete zpracované podklady k verzi na šachovnici 8x8 s českými pravidly.
 ## Pravidla hry - Česká pravidla ##
 - Hraje se na šachovnici 8x8.
 - Soupeři mají na začátku po 12 kamenech stojících na protilehlých stranách v prvních třech řadách na černých políčkách.
