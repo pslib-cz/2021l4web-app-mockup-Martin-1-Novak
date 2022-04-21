@@ -1,0 +1,223 @@
+body {
+    background-image: url(./assets/wood-background.jpeg);
+}
+
+.title {
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+}
+
+.initial-place {
+    width: 36px;
+    height: 36px;
+}
+
+.place  {
+    width: 35px;
+    height: 35px;
+    border: 1px rgb(207, 111, 0) solid;
+    text-align: center;
+}
+
+.place--text {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+}
+
+.position:nth-child(2n)  {
+    background-color: rgb(54, 54, 54);
+}
+
+.board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width:fit-content;
+    margin: 0 auto;
+    border: 5px rgb(88, 47, 0) solid;
+    border-radius: 5px;
+}
+
+.initial {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: fit-content;
+    gap: 5px;
+    margin: 0 auto;
+}
+
+.main-container {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.numbers {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.letters {
+    position: relative;
+    right: 30px;
+    top: 303px;
+    height: fit-content;
+    width: fit-content;
+    margin-top: -280px;
+}
+
+.letters .place {
+    margin-bottom: 2px;
+}
+
+.reset {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(88, 47, 0);
+    border: 3px solid rgb(88, 47, 0);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    bottom: 506px;
+    left: 258px;
+    font-family: Roboto;
+    margin-top: -30px;
+}
+
+.black-place {
+    background-color: rgb(109, 109, 109);
+    background-repeat: no-repeat;
+}
+
+.white-place {
+    background-color: rgb(233, 233, 233);
+    background-repeat: no-repeat;
+}
+
+.black-pawn {
+    background-image: url(./assets/black-pawn.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.white-pawn {
+    background-image: url(./assets/white-pawn.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.black-queen {
+    background-image: url(./assets/white-queen.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.white-queen {
+    background-image: url(./assets/white-queen.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dot {
+    background-image: url(./assets/dot.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width:960px){
+    
+    .title {
+        width: 300px;
+    }
+    
+    .initial-place {
+        width: 54px;
+        height: 54px;
+    }
+    
+    .place  {
+        width: 50px;
+        height: 50px;
+        border: 2px rgb(207, 111, 0) solid;
+        text-align: center;
+    }
+
+    .board {
+        border: 15px rgb(88, 47, 0) solid;
+        border-radius: 15px;
+    }
+    
+
+    .place--text {
+        border: none;
+        width: 50px;
+        height: 50px;
+        font-size: 1.5em;
+    }
+
+    .letters {
+        position: relative;
+        right: 55px;
+        top: 456px;
+        height: fit-content;
+        width: fit-content;
+        margin-top: -426px;
+    }
+
+    .letters .place {
+        margin-bottom: 5px;
+    }
+
+    .numbers {
+        width: fit-content;
+        gap: 5px;
+    }
+
+    .reset {
+        bottom: 682px;
+        left: 435px;
+        margin-top: -30px;
+        font-size: 2em;
+    }
+
+    .black-pawn {
+        background-image: url(./assets/black-pawn-50px.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .white-pawn {
+        background-image: url(./assets/white-pawn-50px.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .black-queen {
+        background-image: url(./assets/black-queen-50px.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .white-queen {
+        background-image: url(./assets/white-queen-50px.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .dot {
+        background-image: url(./assets/dot-50px.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
